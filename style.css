@@ -1,0 +1,256 @@
+/* Reset default margin and padding */
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a black background and white text color to the entire body */
+body {
+    color: greenyellow;
+    padding: 20px;
+    background-color: black;
+    font-family: Arial, sans-serif;
+
+    height: 100%;
+    position: relative;
+    
+}
+
+/* Style the container div with grid layout, red border, and spacing */
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* Divide the container into two equal-width sections */
+    grid-template-rows: repeat(2, 1fr);
+    /* Divide the container into two equal-height sections */
+    gap: 10px;
+    /* Add some spacing between the grid items */
+
+    /* Apply a red border */
+    padding: 5px;
+    position: relative;
+
+}
+
+
+
+
+#Continer-1-Section {
+    width: 20%;
+    position: absolute;
+    text-align: center;
+}
+
+
+#Continer-2-Section {
+    border: 1px solid greenyellow;
+    color: greenyellow;
+    width: 75%;
+    height: 400px;
+    position: absolute;
+    left: 24%;
+    text-indent: 20px;
+    font-weight: 500;
+    overflow-y: hidden;
+    overflow-x: hidden;
+
+}
+
+#Continer-3-Section {
+    border: 1px solid greenyellow;
+    position: absolute;
+    top: 420px;
+    width: 730px;
+    height: 260px;
+}
+
+
+
+#Continer-4-Section {
+    border: 1px solid white;
+    position: absolute;
+    top: 420px;
+    left: 750px;
+    width: 474px;
+    height: 259px;
+    border: 1px solid greenyellow;
+}
+
+/* Style the section_1 div */
+.section_1 {
+    border: 1px solid greenyellow;
+    padding: 10px;
+    /* Add padding for spacing within the section */
+    border-radius: 5px;
+    /* Add rounded corners */
+
+}
+
+/* Style the time element */
+.time {
+    font-size: 24px;
+    /* Adjust the font size as needed */
+    border: 1px solid white;
+    padding: 4px;
+    position: relative;
+    text-align: center;
+}
+
+/* Style the section_2 and section_3 divs (you can add your own styles here) */
+.section_2,
+.section_3 {
+    border: 1px solid white;
+}
+
+.system_info {
+    border: 1px solid rgb(54, 54, 54);
+    padding: 5px;
+    text-align: center;
+}
+
+#applicationDetail {
+    display: grid;
+    gap: 2px;
+}
+
+#enterCommand {
+    position: absolute;
+    top: 40px;
+    left: 10px;
+    width: 70%;
+    height: 20px;
+    border: none;
+    border-bottom: 1.5px solid greenyellow;
+    background-color: black;
+    color: greenyellow;
+    padding: 4px;
+    width: 95%;
+    height: 200px;
+}
+
+#enterCommand:active {
+    
+    height: 20px;
+    border: none;
+    border-bottom: 1.5px solid greenyellow;
+    background-color: black;
+    color: greenyellow;
+}
+
+#runCommand {
+    position: absolute;
+    top: 85%;
+    left: 78%;
+    width: 20%;
+    height: 25px;
+    border: none;
+    border-bottom: 1.5px solid greenyellow;
+    background-color: black;
+    color: greenyellow;
+    margin: 4px;
+}
+
+.System-network-speed {
+    text-align: left;
+    text-indent: 2px;
+
+}
+
+.System-network-speed p {
+    border: 0.2px solid rgba(150, 150, 150, 0.692);
+    margin: 0px;
+    padding: 2px;
+    margin-top: 2px;
+
+}
+
+table {
+
+    margin: 5px;
+    padding: 4px;
+}
+
+th {
+    margin: 10px;
+    padding: 5px;
+    text-align: left;
+    border-bottom: 3px solid greenyellow;
+}
+
+td {
+
+    margin: 1px;
+    padding: 2px;
+}
+
+
+#A {
+    width: 50px;
+    height: 50px;
+    color: greenyellow;
+    position: absolute;
+    top: 2px;
+    left: 1150px;
+    padding: 10px;
+    font-size: 42px;
+    border: 2px solid greenyellow;
+    text-align: center;
+    background-color: black;
+    border-radius: 100%;
+    font-weight: 500;
+    animation: logoMotion 5s infinite linear;
+}
+
+@keyframes logoMotion {
+    0% {
+        transform: rotate(360deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+
+
+}
+
+#Continer-3-Section-btn {
+    position: absolute;
+    left: 10px;
+    top: 3px;
+    background-color: rgb(0, 0, 0);
+    color: greenyellow;
+    display: flex;
+    gap: 10px;
+
+}
+
+#Continer-3-Section-btn-window-Control-btn {
+    position: absolute;
+    left: 550px;
+    top: 3px;
+}
+
+#Continer-3-Section-btn-window-Control-btn button {
+    background-color: black;
+    color: greenyellow;
+    border: none;
+    width: 50px;
+    font-weight: 500;
+    font-size: 16px;
+    box-shadow: 0px 0px 5px 2px greenyellow;
+    margin-top: 2px;
+    margin-left: 2px;
+}
+
+#Continer-3-Section-btn button {
+    background-color: black;
+    color: greenyellow;
+    border: none;
+    width: 60px;
+    font-weight: 500;
+    font-size: 16px;
+    box-shadow: 0px 0px 5px 2px greenyellow;
+}
+
+
